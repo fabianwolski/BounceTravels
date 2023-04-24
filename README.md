@@ -25,9 +25,9 @@ Use the terminal/command prompt to navigate to the cloned repository: cd BounceT
 
 3.Install dependencies:
 Install the necessary dependencies for both frontend (React) and backend (Node.js/Express) applications.
-First, navigate to the frontend folder (assuming it's named client): cd client
+First, navigate to the frontend folder cd client
 Then, run the following command to install the frontend dependencies: npm install or yarn install
-After the installation is complete, navigate to the backend folder (assuming it's named server): cd ../server
+After the installation is complete, navigate to the backend folder cd ../server
 Then, run the following command to install the backend dependencies: npm install or yarn install
 
 4.Start the frontend and backend applications:
