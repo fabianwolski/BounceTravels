@@ -70,15 +70,22 @@ yarn add cypress --dev
 Next navigate to the root folder (client). And run the following command:
 npx cypress open
 
-this will open cypress. Go into component testing and click start testing in your desired browser. 
+This will open cypress. Go into component testing and click start testing in your desired browser. 
 you should then have 3 simple components to test. 
 headermain, footer and searchbutton. 
 Headermain- tests the components for the header and main content
 Footer- tests the components for the footer
 Searchbutton- tests the components and some of the functionality of the search bar.
 
+![Screenshot from 2023-04-24 21-15-46](https://user-images.githubusercontent.com/108536371/234106392-0bdac2fc-544c-43f8-911d-355fc3b7abba.png)
+![Screenshot from 2023-04-24 21-15-46](https://user-images.githubusercontent.com/108536371/234106543-f4e0fb44-85fc-4771-aa9f-74c0d14c61cb.png)
+![Screenshot from 2023-04-24 21-18-43](https://user-images.githubusercontent.com/108536371/234107133-636be74a-d8d6-487d-8506-f77a44721674.png)
 
+# Warning 
+React 18 was used for this project with Cypress React 17 version compatibility. Dependency conflicts may arise. It may be necessary to use
+--legacy-peer-deps upon installing cyrpess: "npm install cypress --save-dev--legacy-peer-deps".
 
+# Setup Conclusion
 This will set up the BounceTravels project locally, allowing you to view and interact with the application, as well as run tests to ensure its functionality. Note that you may need to modify some of these steps depending on your specific project structure or workflow.
 
 ## Application Features
