@@ -1,4 +1,4 @@
-
+![chrome-capture-2023-3-24-min](https://user-images.githubusercontent.com/108536371/234103969-59ebeaf1-8977-4ae6-9ba4-673b65d4678d.gif)
  
 # BounceTravels
 A country-information generator with a clean travel company design that is mobile friendly. Made in April 2023.
