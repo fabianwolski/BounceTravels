@@ -1,4 +1,4 @@
- file:///home/dev/Downloads/chromecapture.gif
+
  
 # BounceTravels
 A country-information generator with a clean travel company design that is mobile friendly. Made in April 2023.
