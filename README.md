@@ -19,19 +19,23 @@ Then, follow these steps:
 1.Clone the repository:
 Open your terminal/command prompt and run the following command to clone the project repository: git clone https://github.com/fabianwolski/BounceTravels.git
 Replace fabianwolski with your GitHub username if you forked the repository.
+
 2.Navigate to the project directory:
 Use the terminal/command prompt to navigate to the cloned repository: cd BounceTravels
+
 3.Install dependencies:
 Install the necessary dependencies for both frontend (React) and backend (Node.js/Express) applications.
 First, navigate to the frontend folder (assuming it's named client): cd client
 Then, run the following command to install the frontend dependencies: npm install or yarn install
 After the installation is complete, navigate to the backend folder (assuming it's named server): cd ../server
 Then, run the following command to install the backend dependencies: npm install or yarn install
+
 4.Start the frontend and backend applications:
 First, start the backend server. While in the server directory, run the following command: npm start or yarn start
 This command will start the backend server (Node.js/Express) on a specific port (e.g., 3001). Keep this terminal/command prompt window open.
 Open a new terminal/command prompt window, navigate to the client directory, and run the following command to start the frontend React application: npm start or yarn start
 This command will start the frontend development server on a different port (e.g., 3000).
+
 5.Access the application:
 Open your web browser and navigate to http://localhost:3000 to access the frontend application.
 
