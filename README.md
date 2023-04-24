@@ -60,12 +60,24 @@ yarn start
 This command will start the frontend development server on a different port (e.g., 3000).
 
 Access the application: Open your web browser and navigate to http://localhost:3000 to access the frontend application.
+# Run Tests
+Install the necessary dependencies by running the following command:
 
-Run tests: To run the Cypress component tests, navigate to the client directory (if you aren't already there) and run the following command:
-
-npm run test
+npm install cypress --save-dev
 or
-yarn test
+yarn add cypress --dev
+
+Next navigate to the root folder (client). And run the following command:
+npx cypress open
+
+this will open cypress. Go into component testing and click start testing in your desired browser. 
+you should then have 3 simple components to test. 
+headermain, footer and searchbutton. 
+Headermain- tests the components for the header and main content
+Footer- tests the components for the footer
+Searchbutton- tests the components and some of the functionality of the search bar.
+
+
 
 This will set up the BounceTravels project locally, allowing you to view and interact with the application, as well as run tests to ensure its functionality. Note that you may need to modify some of these steps depending on your specific project structure or workflow.
 
