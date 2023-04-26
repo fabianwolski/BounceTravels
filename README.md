@@ -3,8 +3,10 @@
 # BounceTravels
 A country-information generator with a clean travel company design that is mobile friendly. Made in April 2023.
 This is a react front end application that communicates with a NodeJS backend running Express. Which interacts with the https://restcountries.com/#rest-countries API. Cypress was used for component testing. Code is commented out in a clean and simple manner. 
-Deployed on netlify: https://country-info-generator.netlify.app/
+Heroku required a subscription therfore I deployed (build file only) on netlify: https://country-info-generator.netlify.app/.
+Thus, backend functionality will not load. Please follow instructions below to access full app functionality including testing.
 
+ 
 ## Getting Started
 
 Instructions for setting up the project locally:
